@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: leoparser
+  main:
+    banner-mode: off
+server:
+  port: 8096
+
+
+leon:
+  limit:
+    league-list: ${LEAGUE_LIST:2}
+    match-list-in-league: ${MATCH_LIST_IN_LEAGUE:2}
+    bets-per-match: ${BETS_PER_MATCH:3}
+    threads: ${THREADS:3}
