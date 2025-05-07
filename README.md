@@ -12,7 +12,7 @@ java -jar leoparser.jar \
   --BETS_PER_MATCH=2 \
   --THREADS=3
 ```
-* File in root project 
+* File in root project (java 17)
 * Use VPN if no packets 
 `ping leon.bet`
 
